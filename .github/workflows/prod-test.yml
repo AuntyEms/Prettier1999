@@ -109,7 +109,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3.7.0
         with:
-          node-version: "0.10.48"
+          node-version: "22.16.0"
 
       - name: Download Artifact
         uses: actions/download-artifact@v4.1.8

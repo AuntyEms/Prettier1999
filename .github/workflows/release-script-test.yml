@@ -37,7 +37,7 @@ jobs:
         uses: actions/setup-node@v3.7.0
         with:
           # Minimal version the release script required
-          node-version: "18"
+          node-version: "22"
           cache: "yarn"
 
       - name: Install Dependencies
