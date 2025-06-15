@@ -34,7 +34,7 @@
     "@babel/code-frame": "7.22.5",
     "@babel/parser": "7.22.7",
     "@babel/types": "7.22.5",
-    "@glimmer/syntax": "0.84.3",
+    "@glimmer/syntax": "0.94.9",
     "@iarna/toml": "2.2.5",
     "@prettier/is-es5-identifier-name": "0.2.0",
     "@prettier/parse-srcset": "3.0.0",
@@ -108,7 +108,7 @@
   "devDependencies": {
     "@babel/generator": "7.22.9",
     "@esbuild-plugins/node-modules-polyfill": "0.2.2",
-    "@glimmer/reference": "0.84.3",
+    "@glimmer/reference": "0.94.8",
     "@types/estree": "1.0.1",
     "@types/file-entry-cache": "5.0.2",
     "@types/find-cache-dir": "3.2.1",
