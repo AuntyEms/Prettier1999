@@ -1637,6 +1637,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/codemirror@npm:^0.0.90":
+  version: 0.0.90
+  resolution: "@types/codemirror@npm:0.0.90"
+  dependencies:
+    "@types/tern": "*"
+  checksum: f4594b9bc95306bbbe24d967e0749e28fe7b1e461c41621429b8c8bc295bda1704d99c1d7d5496efd987ee80d24f055155ddd742fa0c975cd69f279ccdaa0af9
+  languageName: node
+  linkType: hard
+
 "@types/eslint-scope@npm:^3.7.3":
   version: 3.7.4
   resolution: "@types/eslint-scope@npm:3.7.4"
@@ -1700,6 +1709,15 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: e99fc7cc6265407987b30deda54c1c24bb1478803faf6037557a774b2f034c5b097ffd65847daa87e82a61a250d919f35c3588654b0fdaa816906650f596d1b0
+  languageName: node
+  linkType: hard
+
+"@types/tern@npm:*":
+  version: 0.23.9
+  resolution: "@types/tern@npm:0.23.9"
+  dependencies:
+    "@types/estree": "*"
+  checksum: 53f229c79edf9454011f5b37c8539e0e760a130beac953d4e2126823de1ac6b0e2a45612596679fb232ec861826584fcaa272e2254a890b410575683423d56a8
   languageName: node
   linkType: hard
 
@@ -3022,16 +3040,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemirror-graphql@npm:2.0.9":
-  version: 2.0.9
-  resolution: "codemirror-graphql@npm:2.0.9"
+"codemirror-graphql@npm:2.2.2":
+  version: 2.2.2
+  resolution: "codemirror-graphql@npm:2.2.2"
   dependencies:
-    graphql-language-service: 5.1.7
+    "@types/codemirror": ^0.0.90
+    graphql-language-service: 5.4.0
   peerDependencies:
     "@codemirror/language": 6.0.0
     codemirror: ^5.65.3
-    graphql: ^15.5.0 || ^16.0.0
-  checksum: 89a67d6f67b9a33a780c75025ceea68f1d8e12073524a09ff5a946933c9c35dfd398b428a9811a41b57fcc91799c3e3e4fca835c2618ca9e631a75f697967a62
+    graphql: ^15.5.0 || ^16.0.0 || ^17.0.0
+  checksum: 30e8bd10797212e0d3022ccef0fa814c0f9ed7e7ca4180ae5b114597ccd32bf61426a0b49b994fe14cbf6ac9a0979121ac4b58472e08a04e86d445583ff4d475
   languageName: node
   linkType: hard
 
@@ -3606,6 +3625,13 @@ __metadata:
   dependencies:
     "@babel/runtime": ^7.21.0
   checksum: f7be01523282e9bb06c0cd2693d34f245247a29098527d4420628966a2d9aad154bd0e90a6b1cf66d37adcb769cd108cf8a7bd49d76db0fb119af5cdd13644f4
+  languageName: node
+  linkType: hard
+
+"debounce-promise@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "debounce-promise@npm:3.1.2"
+  checksum: 29bac4524c423cc852319d7455363909ea3d933a3b9e3eb1149d963cffc34c475fe37219d0bafc61af566500b5d663cba579bbad7ee4023bef06f8394ed900ad
   languageName: node
   linkType: hard
 
@@ -5463,17 +5489,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-language-service@npm:5.1.7":
-  version: 5.1.7
-  resolution: "graphql-language-service@npm:5.1.7"
+"graphql-language-service@npm:5.4.0":
+  version: 5.4.0
+  resolution: "graphql-language-service@npm:5.4.0"
   dependencies:
+    debounce-promise: ^3.1.2
     nullthrows: ^1.0.0
     vscode-languageserver-types: ^3.17.1
   peerDependencies:
-    graphql: ^15.5.0 || ^16.0.0
+    graphql: ^15.5.0 || ^16.0.0 || ^17.0.0
   bin:
     graphql: dist/temp-bin.js
-  checksum: eca00df3a136f687fa96c10c458817082c7ee427552969beeac0871d565e697faf93f677fdad15ee8bb3011fa5a47fe861bde71c88db9b8b4d67704928406fae
+  checksum: 2d644400d943185764c3f89c8a803a62fcc86d8b538f6d7af165a7289b609e6d08a743c46debe62f76b074a68a39261c95de558cbca02ceed9f5eec61eea98d2
   languageName: node
   linkType: hard
 
@@ -9247,7 +9274,7 @@ __metadata:
     "@sandhose/prettier-animated-logo": 1.0.3
     babel-loader: 10.0.0
     clipboard: 2.0.11
-    codemirror-graphql: 2.0.9
+    codemirror-graphql: 2.2.2
     concurrently: 8.2.0
     docusaurus: 1.14.7
     js-yaml: 4.1.0
