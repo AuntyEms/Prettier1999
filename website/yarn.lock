@@ -3040,9 +3040,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemirror-graphql@npm:2.2.2":
-  version: 2.2.2
-  resolution: "codemirror-graphql@npm:2.2.2"
+"codemirror-graphql@npm:2.2.3":
+  version: 2.2.3
+  resolution: "codemirror-graphql@npm:2.2.3"
   dependencies:
     "@types/codemirror": ^0.0.90
     graphql-language-service: 5.4.0
@@ -3050,7 +3050,7 @@ __metadata:
     "@codemirror/language": 6.0.0
     codemirror: ^5.65.3
     graphql: ^15.5.0 || ^16.0.0 || ^17.0.0
-  checksum: 30e8bd10797212e0d3022ccef0fa814c0f9ed7e7ca4180ae5b114597ccd32bf61426a0b49b994fe14cbf6ac9a0979121ac4b58472e08a04e86d445583ff4d475
+  checksum: 3940732eec0755bd2c5667c25bc943a6a996c2902d7a2d6dc23a6004f888c59f9a969c2d3be7f479221b57c168652d52896455245b8e26b61c701f58ef96409b
   languageName: node
   linkType: hard
 
@@ -9274,7 +9274,7 @@ __metadata:
     "@sandhose/prettier-animated-logo": 1.0.3
     babel-loader: 10.0.0
     clipboard: 2.0.11
-    codemirror-graphql: 2.2.2
+    codemirror-graphql: 2.2.3
     concurrently: 8.2.0
     docusaurus: 1.14.7
     js-yaml: 4.1.0
