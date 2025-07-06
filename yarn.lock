@@ -2654,7 +2654,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:3.8.0, ci-info@npm:^3.2.0, ci-info@npm:^3.8.0":
+"ci-info@npm:4.2.0":
+  version: 4.2.0
+  resolution: "ci-info@npm:4.2.0"
+  checksum: 0e3726721526f54c5b17cf44ab2ed69b842c756bcb4d2b26ce279e595a80a856aec9fb38a2986a2baca3de73d15895f3a01d2771c4aad93c898aae7e3ca0ceb1
+  languageName: node
+  linkType: hard
+
+"ci-info@npm:^3.2.0, ci-info@npm:^3.8.0":
   version: 3.8.0
   resolution: "ci-info@npm:3.8.0"
   checksum: d0a4d3160497cae54294974a7246202244fff031b0a6ea20dd57b10ec510aa17399c41a1b0982142c105f3255aff2173e5c0dd7302ee1b2f28ba3debda375098
@@ -7028,7 +7035,7 @@ __metadata:
     c8: 8.0.1
     camelcase: 7.0.1
     chalk: 5.3.0
-    ci-info: 3.8.0
+    ci-info: 4.2.0
     cjk-regex: 3.0.0
     collapse-white-space: 1.0.6
     cosmiconfig: 8.2.0
