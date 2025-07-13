@@ -2034,15 +2034,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"angular-estree-parser@npm:7.0.0":
-  version: 7.0.0
-  resolution: "angular-estree-parser@npm:7.0.0"
-  dependencies:
-    lines-and-columns: ^2.0.3
-    tslib: ^2.5.0
+"angular-estree-parser@npm:13.0.1":
+  version: 13.0.1
+  resolution: "angular-estree-parser@npm:13.0.1"
   peerDependencies:
-    "@angular/compiler": ^16.0.0
-  checksum: 1e030934767219803cefa997536206a2b163f4f0f3768cfcc09d14af7193ab67b51152e676a969a446a5fd6605c68e451b049d8c281eb8ea815cee2b8218561c
+    "@angular/compiler": ^20.1.0
+  checksum: 9bddbc2fa90ad19fb37b95a5f40dcf4ed196d638de0b6c21d23accaee505c8349ab27a9bdbd2e1a76e9e6ab6ab370146d42b6d57da77eee1f703c98197c70cd7
   languageName: node
   linkType: hard
 
@@ -7021,7 +7018,7 @@ __metadata:
     "@typescript-eslint/visitor-keys": 6.2.0
     acorn: 8.10.0
     acorn-jsx: 5.3.2
-    angular-estree-parser: 7.0.0
+    angular-estree-parser: 13.0.1
     angular-html-parser: 4.0.1
     benchmark: 2.1.4
     browserslist-to-esbuild: 1.2.0
