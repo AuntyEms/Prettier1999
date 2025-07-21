@@ -7119,7 +7119,7 @@ __metadata:
     unified: 9.2.2
     vnopts: 2.0.0
     wcwidth: 1.0.1
-    yaml-unist-parser: 2.0.1
+    yaml-unist-parser: 2.0.5
   bin:
     prettier: ./bin/prettier.cjs
   languageName: unknown
@@ -8314,7 +8314,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.3.0, tslib@npm:^2.4.0, tslib@npm:^2.5.0, tslib@npm:^2.6.0":
+"tslib@npm:^2.3.0, tslib@npm:^2.5.0, tslib@npm:^2.6.0":
   version: 2.6.0
   resolution: "tslib@npm:2.6.0"
   checksum: c01066038f950016a18106ddeca4649b4d76caa76ec5a31e2a26e10586a59fceb4ee45e96719bf6c715648e7c14085a81fee5c62f7e9ebee68e77a5396e5538f
@@ -8904,18 +8904,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml-unist-parser@npm:2.0.1":
-  version: 2.0.1
-  resolution: "yaml-unist-parser@npm:2.0.1"
+"yaml-unist-parser@npm:2.0.5":
+  version: 2.0.5
+  resolution: "yaml-unist-parser@npm:2.0.5"
   dependencies:
-    lines-and-columns: ^2.0.3
-    tslib: ^2.4.0
-    yaml: ^1.10.0
-  checksum: 89d542046a502ecb14eed8ffc16d520bf41ccb8525b16e4c29c184d787cf3df047d5f9efa4eb669c9c3bd3e6178202681cee35ea5c832f761a130db16b75f638
+    yaml: ^1.10.2
+  checksum: dcc2ac135d89e0e513ed3aa9a78067f4758a18ad97764bf2e9b9459ada99ccc7bb32d4a3bbda157b53f1d1a1fd04cd3afad6b139a5d025194cbc283210fea3d2
   languageName: node
   linkType: hard
 
-"yaml@npm:^1.10.0":
+"yaml@npm:^1.10.2":
   version: 1.10.2
   resolution: "yaml@npm:1.10.2"
   checksum: ce4ada136e8a78a0b08dc10b4b900936912d15de59905b2bf415b4d33c63df1d555d23acb2a41b23cf9fb5da41c256441afca3d6509de7247daa062fd2c5ea5f
